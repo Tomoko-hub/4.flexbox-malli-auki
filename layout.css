@@ -1,0 +1,59 @@
+html{
+    font-size: 62.50%;
+}
+
+.image1 .parent {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.image1 .parent > * {
+    flex-basis: 0px;
+    flex-grow: 1;
+    order: 2; 
+}
+
+.image2 .parent {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.image2 .parent > * {
+    flex-basis: 0px;
+    flex-grow: 1;
+    order: 2;
+}
+.image2 .parent .blue {
+    flex-grow: 2;
+}
+.image3 .parent {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+.image3 .parent > * {
+    flex-basis: 0px;
+    flex-grow: 1;
+    order: 2;
+    
+}
+.image3 .parent .blue{
+    flex-grow:2;
+}
+.image3 .parent .green {
+    order : 1;
+}
+
+.red {
+    background-color: coral;
+}
+.blue {
+    background-color: skyblue;
+}
+.green {
+    background-color: limegreen;
+}
